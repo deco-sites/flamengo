@@ -34,7 +34,7 @@ const options: Omit<Options, "selfURL"> = {
   theme: {
     extend: {
       colors: {
-        "default": "#FFFFFF",
+        "default": "#000000",
         "header": "#FFFFFF",
         "badge": "#8C3D3D", // shopping cart tem isso tambem
         "footer": "#D2232A",

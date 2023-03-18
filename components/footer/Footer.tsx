@@ -126,19 +126,7 @@ function Footer({ sections = [] }: Props) {
       <div>
         <Container class="w-full">
           <FooterContainer class="flex justify-between w-full">
-            <Text
-              class="flex items-center gap-1"
-              variant="body"
-              tone="default-inverse"
-            >
-              Powered by{" "}
-              <a
-                href="https://www.deco.cx"
-                aria-label="powered by https://www.deco.cx"
-              >
-                <Icon id="Deco" height={20} width={60} strokeWidth={0.01} />
-              </a>
-            </Text>
+
 
             <ul class="flex items-center justify-center gap-2">
               <li>
