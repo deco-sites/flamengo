@@ -18,6 +18,7 @@ function NavItem({ item }: { item: INavItem }) {
         <Text
           class="group-hover:border-black border-solid border-b border-white"
           variant="menu"
+          tone="default-inverse"
         >
           {label}
         </Text>
