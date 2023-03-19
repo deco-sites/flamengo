@@ -1,5 +1,4 @@
 import Text from "$store/components/ui/Text.tsx";
-import Icon from "$store/components/ui/Icon.tsx";
 import SliderControllerJS from "$store/islands/SliderJS.tsx";
 import Slider from "$store/components/ui/Slider.tsx";
 import { useId } from "preact/hooks";
@@ -23,11 +22,9 @@ function Alert({ alerts = [], interval = 5 }: Props) {
           <Text
             class="flex justify-center items-center w-screen h-[38px]"
             variant="caption"
-            tone="default"
+            tone="default-inverse"
           >
-            <Icon id="Truck" width={50} height={20} />
             {alert}
-            <Icon id="Truck" width={50} height={20} />
           </Text>
         ))}
       </Slider>
