@@ -14,7 +14,8 @@ function MenuItem({ item, level = 0 }: { item: INavItem; level?: number }) {
 
   const title = (
     <Text
-      class="flex-grow min-h-[40px] flex items-center justify-start" tone="default-inverse"
+      class="flex-grow min-h-[40px] flex items-center justify-start"
+      tone="default-inverse"
       variant={level === 0 ? "menu" : "caption"}
     >
       {item.label}
@@ -59,7 +60,7 @@ function MenuItem({ item, level = 0 }: { item: INavItem; level?: number }) {
         <ul class={`flex-col ${open.value === true ? "flex" : "hidden"}`}>
           <li>
             <a href={item.href} class="w-full py-2 pl-2 inline-block ">
-              <Text class="underline" variant="caption" >
+              <Text class="underline" variant="caption">
                 Ver todos
               </Text>
             </a>
@@ -83,7 +84,7 @@ function Menu({ items }: Props) {
         {items.map((item) => <MenuItem item={item} />)}
       </ul>
 
-      <ul class="flex flex-col py-2 bg-hover" >
+      <ul class="flex flex-col py-2 bg-hover">
         <li>
           <a
             class="flex items-center gap-4 px-4 py-2"
