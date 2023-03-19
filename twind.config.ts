@@ -35,17 +35,17 @@ const options: Omit<Options, "selfURL"> = {
     extend: {
       colors: {
         "default": "#000000",
-        "header": "#FFFFFF",
-        "badge": "#8C3D3D", // shopping cart tem isso tambem
+        "header": "#000000",
+        "badge": "#D2232A", // shopping cart tem isso tambem
         "footer": "#D2232A",
         "interactive": "#161616",
-        "interactive-inverse": "#FFFFFF", 
+        "interactive-inverse": "#FFFFFF",
         "hover": "rgba(0, 0, 0, 0.04)",
         "hover-inverse": "rgba(255, 255, 255, 0.4)",
       },
       textColor: {
-        "default": "#161616",
-        "default-inverse": "#FFFFFF",
+        "default": "#FFFFFF",
+        "default-inverse": "#000000",
         "subdued": "#66736C",
         "subdued-inverse": "#C6C6C6",
         "price": "#8C3D3D",
