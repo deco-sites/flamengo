@@ -126,8 +126,6 @@ function Footer({ sections = [] }: Props) {
       <div>
         <Container class="w-full">
           <FooterContainer class="flex justify-between w-full">
-
-
             <ul class="flex items-center justify-center gap-2">
               <li>
                 <a

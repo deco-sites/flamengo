@@ -25,9 +25,9 @@ function Alert({ alerts = [], interval = 5 }: Props) {
             variant="caption"
             tone="default"
           >
-            <Icon id="Truck" width={50} height={20}/>
+            <Icon id="Truck" width={50} height={20} />
             {alert}
-            <Icon id="Truck" width={50} height={20}/>
+            <Icon id="Truck" width={50} height={20} />
           </Text>
         ))}
       </Slider>

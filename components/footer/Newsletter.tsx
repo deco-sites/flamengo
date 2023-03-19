@@ -4,7 +4,6 @@ function Newsletter() {
   return (
     <div class="flex  sm:flex-row items-center gap-6 sm:gap-20">
       <div class="flex gap-2 max-w-[400px]">
-
         <Text variant="caption" tone="default-inverse">
           Na Loja Oficial do Flamengo, você encontra produtos exclusivos para
           torcer, comemorar e representar todo o orgulho e paixão Rubro-Negra.
